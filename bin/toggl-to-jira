@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+process.title = 'toggl-to-jira';
+
+require("../lib/toggl-to-jira.js").togglToTimeCard();

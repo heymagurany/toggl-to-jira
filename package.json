@@ -1,0 +1,26 @@
+{
+  "name": "toggl-to-jira",
+  "version": "1.0.0",
+  "description": "Logs Toggl time entries in Jira.",
+  "homepage": "https://bitbucket.org/heymagurany/toggl-to-time-card",
+  "dependencies": {
+    "toggl-api": ">=0.0.3",
+    "request": ">=2.53.0",
+    "async": ">=0.9.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^0.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Magurany",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "bin": {
+    "toggl-to-jira": "./bin/toggl-to-jira"
+  }
+}
