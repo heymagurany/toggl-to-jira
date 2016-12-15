@@ -2,4 +2,4 @@
 
 process.title = 'toggl-to-jira';
 
-require("../lib/toggl-to-jira.js").togglToTimeCard();
+require("../lib/index.js")
