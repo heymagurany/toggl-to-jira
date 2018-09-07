@@ -1,11 +1,9 @@
 # toggl-to-jira
 
-
-
 ### Install
 
-    yarn global add git@github.com:heymagurany/toggl-to-jira.git
-
+    yarn global add https://github.com/heymagurany/toggl-to-jira.git
+    
 ### Usage
 
 `toggl-to-jira` only supports the `epic` command at the moment.
@@ -35,4 +33,3 @@ The output is a JSON encoded map of epics to time spent
             "timeSpentPercent": 45
         }
     }
-    
