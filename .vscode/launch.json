@@ -1,0 +1,45 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch epic command",
+      "program": "${workspaceFolder}/lib/index.js",
+      "args": [
+        "epic",
+        "-f",
+        "2019-11-04",
+        "-t",
+        "2019-11-08"
+      ],
+      "skipFiles": [
+        "<node_internals>/**",
+        "${workspaceFolder}/node_modules/**"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch sync command",
+      "program": "${workspaceFolder}/lib/index.js",
+      "args": [
+        "sync",
+        "--from-time",
+        "2019-11-04",
+        "--to-time",
+        "2019-11-08",
+        "--dry-run"
+      ],
+      "skipFiles": [
+        "<node_internals>/**",
+        // "${workspaceFolder}/node_modules/**"
+      ],
+      "console": "integratedTerminal"
+    }
+  ]
+}
