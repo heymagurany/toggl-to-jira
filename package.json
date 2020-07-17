@@ -15,7 +15,7 @@
     "yargs": "^14.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "eslint": "7.4.0"
   },
   "scripts": {
     "lint": "eslint lib/; exit 0",
@@ -28,5 +28,8 @@
   ],
   "bin": {
     "toggl-to-jira": "./bin/toggl-to-jira"
+  },
+  "engines": {
+    "node": "^12.13.0"
   }
 }
