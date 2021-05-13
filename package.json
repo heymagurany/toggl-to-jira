@@ -11,7 +11,7 @@
     "read-all-up": "^1.0.1",
     "request": ">=2.53.0",
     "request-promise": "^4.1.1",
-    "toggl-api": ">=0.0.3",
+    "toggl-client": "^1.1.0",
     "yargs": "^14.2.0"
   },
   "devDependencies": {
