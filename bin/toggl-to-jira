@@ -2,4 +2,4 @@
 
 process.title = 'toggl-to-jira';
 
-require("../lib/index.js")
+import("../lib/index.js");
