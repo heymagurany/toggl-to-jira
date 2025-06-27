@@ -1,6 +1,6 @@
 {
   "name": "toggl-to-jira",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Logs Toggl time entries in Jira.",
   "homepage": "https://bitbucket.org/heymagurany/toggl-to-time-card",
   "type": "module",
@@ -13,7 +13,7 @@
     "request": ">=2.53.0",
     "request-promise": "^4.1.1",
     "toggl-client": "^3.5.0",
-    "yargs": "^14.2.0"
+    "yargs": "^18.0.0"
   },
   "devDependencies": {
     "eslint": "^9.29.0"
